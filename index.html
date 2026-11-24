@@ -1,0 +1,1852 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Engineering portfolio of Huzaifaa Shaik — Final-year B.Tech CSE (AI & ML) undergraduate at Woxsen University and former Gen AI Developer Intern at TCS. Building practical GenAI, Hybrid Graph RAG, RL environments, and secure backend systems." />
+  <meta name="author" content="Huzaifaa Shaik" />
+  <meta name="theme-color" content="#070b12" />
+  <title>Huzaifaa Shaik — AI/ML &amp; Generative AI Systems Portfolio</title>
+
+  <!-- Progressive enhancement flag: switches .no-js to .js immediately if JS is enabled -->
+  <script>
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+
+  <!-- Optional web fonts with full system-font fallbacks in style.css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+  <!-- Keyboard Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Subtle Background Grid Overlay (decorative) -->
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- ================= STICKY NAVIGATION ================= -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#top" class="brand-logo" aria-label="Huzaifaa Shaik Home">
+        <span class="brand-bracket">[</span>
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-text">HS<span class="brand-sub">//SYS.AI</span></span>
+        <span class="brand-bracket">]</span>
+      </a>
+
+      <button
+        type="button"
+        class="mobile-nav-toggle"
+        id="mobile-nav-toggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link nav-link-featured">Projects <span class="nav-count">20</span></a></li>
+          <li><a href="#internship" class="nav-link">TCS Internship</a></li>
+          <li><a href="#competitions" class="nav-link">Competitions</a></li>
+          <li><a href="#practical-learning" class="nav-link">Practical Learning</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#achievements" class="nav-link">Registered Design</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a
+            href="https://github.com/huzaifaa69"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-nav-github"
+            aria-label="GitHub profile (huzaifaa69)"
+          >
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+            </svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ================= 1. HERO SECTION ================= -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot status-dot-green" aria-hidden="true"></span>
+            <span class="mono-label">B.TECH CSE (AI &amp; ML) · 2023–2027 · FINAL YEAR @ WOXSEN UNIVERSITY</span>
+          </div>
+
+          <p class="hero-kicker mono-label">HUZAIFAA SHAIK // AI/ML &amp; GENERATIVE AI ENGINEER</p>
+          <h1 id="hero-title" class="hero-title">
+            Building practical AI systems with a focus on <span class="text-gradient">reliable, secure engineering.</span>
+          </h1>
+
+          <p class="hero-intro">
+            I am a final-year AI &amp; Machine Learning undergraduate at Woxsen University, Hyderabad, focused on turning machine learning concepts into demonstrable software systems — spanning <strong>Retrieval-Augmented Generation (RAG)</strong>, <strong>Hybrid Graph RAG</strong>, <strong>AI agents</strong>, <strong>RL environments</strong>, and <strong>backend-integrated applications</strong>. I recently completed a four-month <strong>Generative AI Developer Internship at Tata Consultancy Services (TCS)</strong> (June–October 2026).
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>Inspect Engineering Projects</span>
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+
+            <a href="https://github.com/huzaifaa69" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+              </svg>
+              <span>GitHub</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/shaik-huzaifaa-/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="https://huggingface.co/huzaifaa1" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <span class="mono-badge" aria-hidden="true">HF</span>
+              <span>Hugging Face</span>
+            </a>
+
+            <a href="mailto:huzifaashaik@gmail.com" class="btn btn-secondary" aria-label="Send email to huzifaashaik@gmail.com">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+              </svg>
+              <span>huzifaashaik@gmail.com</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Tasteful Technical Visual: System Architecture & Verification Panel -->
+        <aside class="hero-panel" aria-label="Engineering system summary">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots" aria-hidden="true">
+                <span class="dot dot-slate"></span>
+                <span class="dot dot-cyan"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="terminal-title mono-label">SYS.MANIFEST // VERIFIED_PORTFOLIO_STATE</span>
+              <span class="terminal-tag mono-label">STATIC · AUDITABLE</span>
+            </div>
+
+            <div class="terminal-body">
+              <div class="sys-row">
+                <span class="sys-key mono-label">IDENTITY</span>
+                <span class="sys-val">Huzaifaa Shaik <span class="text-muted">(B.Tech CSE AI &amp; ML, 2023–2027)</span></span>
+              </div>
+              <div class="sys-row">
+                <span class="sys-key mono-label">INTERNSHIP</span>
+                <span class="sys-val"><span class="badge-inline badge-green">COMPLETED</span> Gen AI Developer @ TCS (Jun–Oct 2026)</span>
+              </div>
+              <div class="sys-row">
+                <span class="sys-key mono-label">REPOSITORIES</span>
+                <span class="sys-val">17 Public GitHub Repos · 5 Hugging Face Spaces</span>
+              </div>
+              <div class="sys-row">
+                <span class="sys-key mono-label">CORE_SYSTEMS</span>
+                <span class="sys-val">Hybrid Graph RAG · Stateful Agents · OpenEnv RL + GRPO · FHIR R4</span>
+              </div>
+              <div class="sys-row">
+                <span class="sys-key mono-label">SECURITY_FOCUS</span>
+                <span class="sys-val">JWT + RBAC · IDOR Defense · Local LLM Fencing · Voice Anti-Spoofing</span>
+              </div>
+
+              <div class="arch-mini-diagram" aria-label="Core engineering workflow">
+                <div class="arch-mini-title mono-label">TYPICAL SYSTEM ARCHITECTURE PATTERN</div>
+                <div class="arch-flow">
+                  <div class="arch-node">
+                    <span class="arch-node-code mono-label">01 // INGEST</span>
+                    <span class="arch-node-name">PDF / FHIR / Audio / Telemetry</span>
+                  </div>
+                  <span class="arch-arrow" aria-hidden="true">→</span>
+                  <div class="arch-node">
+                    <span class="arch-node-code mono-label">02 // RETRIEVE &amp; GUARD</span>
+                    <span class="arch-node-name">Chroma + Neo4j + RBAC / Auth</span>
+                  </div>
+                  <span class="arch-arrow" aria-hidden="true">→</span>
+                  <div class="arch-node">
+                    <span class="arch-node-code mono-label">03 // REASON &amp; VERIFY</span>
+                    <span class="arch-node-name">Grounded LLM / RL Policy + RAGAS</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="terminal-footer mono-label">
+                <span>EVIDENCE HIERARCHY: SOURCE CODE &gt; TESTS/RAGAS &gt; CERTIFICATES</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= 2. ABOUT SECTION ================= -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow mono-label">01 // ENGINEERING PHILOSOPHY &amp; FOCUS</p>
+          <h2 id="about-title" class="section-title">About My Approach</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative card">
+            <h3 class="card-subtitle">From Isolated Models to End-to-End Systems</h3>
+            <p>
+              I prefer building demonstrable software systems over leaving work inside isolated notebooks. What motivates me is understanding how an intelligent system operates end-to-end: how unstructured documents or clinical records are ingested, how retrieval pipelines fail when context is noisy, how role-based access control prevents unauthorized data exposure, and how quantitative evaluation (such as RAGAS metrics, cross-validation ablations, or reward decomposition) reveals whether a system is genuinely improving.
+            </p>
+            <p>
+              During my <strong>Generative AI Developer internship at Tata Consultancy Services (TCS)</strong>, I built an offline enterprise HR Knowledge Intelligence Platform combining vector retrieval, Neo4j knowledge graphs, local Llama 3 inference via Ollama, JWT authentication, and prompt-injection safeguards. I am currently extending that hybrid Graph RAG architecture locally into a stateful customer troubleshooting agent for Lenovo support workflows, while also experimenting with reinforcement learning agents in Kaggle's Orbit Wars competition.
+            </p>
+            <p class="about-note">
+              <strong>Note on Security Theme:</strong> The visual style of this site reflects my interest in reliable, defensive software engineering. I am an AI/ML and Generative AI developer who builds security-conscious applications (RBAC, JWT auth, IDOR checks, local privacy-preserving LLM pipelines, and voice anti-spoofing prototypes)—not a full-time professional cybersecurity specialist.
+            </p>
+          </div>
+
+          <div class="about-domains">
+            <div class="domain-card card">
+              <div class="domain-header">
+                <span class="domain-code mono-label">DOM-01</span>
+                <h3 class="domain-title">Generative AI, RAG &amp; Agentic Workflows</h3>
+              </div>
+              <p class="domain-desc">
+                Document ingestion, chunking strategies, vector search (ChromaDB, FAISS), Hybrid Graph RAG (Neo4j + entity-relationship extraction), stateful multi-turn orchestration (LangChain, LangGraph), local LLM inference (Ollama / Llama 3), and RAGAS evaluation.
+              </p>
+            </div>
+
+            <div class="domain-card card">
+              <div class="domain-header">
+                <span class="domain-code mono-label">DOM-02</span>
+                <h3 class="domain-title">Reinforcement Learning, NLP &amp; Multimodal ML</h3>
+              </div>
+              <p class="domain-desc">
+                OpenEnv RL environment design, multi-component reward shaping, GRPO fine-tuning (Qwen2.5 with Unsloth &amp; TRL), speech biometrics (SpeechBrain ECAPA-TDNN + acoustic liveness), vision-language captioning (BLIP), CRNN OCR, and feature-engineered tabular/text classifiers.
+              </p>
+            </div>
+
+            <div class="domain-card card">
+              <div class="domain-header">
+                <span class="domain-code mono-label">DOM-03</span>
+                <h3 class="domain-title">Backend Architecture &amp; Application Security</h3>
+              </div>
+              <p class="domain-desc">
+                REST APIs and full-stack integration with Python (FastAPI, Streamlit, Gradio), Java 21 (Spring Boot 3, HAPI FHIR R4, Testcontainers), React/TypeScript, PostgreSQL, Docker, Nginx, stateless JWT authentication, RBAC authorization, audit logging, and hallucination boundary fencing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. PROJECTS — MAIN SECTION ================= -->
+    <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow mono-label">02 // VERIFIED ENGINEERING INVENTORY (17 GITHUB REPOS · 5 HF SPACES · 3 LOCAL/INTERNSHIP SYSTEMS)</p>
+          <div class="section-title-row">
+            <div>
+              <h2 id="projects-title" class="section-title">Engineering Projects &amp; Case Studies</h2>
+              <p class="section-lead">
+                Every project below is audited against source code, evaluation logs, READMEs, or official internship/hackathon certificates. Click any project to open its full <strong>14-point Engineering Dossier</strong> (problem, architecture, what I personally implemented, technical decisions, measured results, limitations, and evidence links).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Status Badge Legend -->
+        <div class="status-legend" aria-label="Project status badge legend">
+          <span class="mono-label legend-title">STATUS TAXONOMY:</span>
+          <span class="status-badge status-implemented">Implemented</span>
+          <span class="status-badge status-tested">Tested</span>
+          <span class="status-badge status-evaluated">Evaluated</span>
+          <span class="status-badge status-deployed">Deployed</span>
+          <span class="status-badge status-progress">In Progress</span>
+          <span class="status-badge status-planned">Planned</span>
+        </div>
+
+        <!-- Accessible Filter & Search Controls -->
+        <div class="project-controls" role="region" aria-label="Filter projects by category or keyword">
+          <div class="filter-buttons" role="group" aria-label="Project categories">
+            <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">
+              All Systems <span class="filter-count" id="count-all">20</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="genai-rag" aria-pressed="false">
+              GenAI &amp; RAG
+            </button>
+            <button type="button" class="filter-btn" data-filter="ai-ml" aria-pressed="false">
+              AI/ML
+            </button>
+            <button type="button" class="filter-btn" data-filter="security" aria-pressed="false">
+              Security
+            </button>
+            <button type="button" class="filter-btn" data-filter="fullstack" aria-pressed="false">
+              Full-stack
+            </button>
+            <button type="button" class="filter-btn" data-filter="research" aria-pressed="false">
+              Research
+            </button>
+          </div>
+
+          <div class="search-box">
+            <label for="project-search" class="sr-only">Search projects by technology or title</label>
+            <input
+              type="search"
+              id="project-search"
+              class="search-input"
+              placeholder="Filter by tech (e.g., Neo4j, FastAPI, FHIR, GRPO)..."
+              autocomplete="off"
+            />
+          </div>
+        </div>
+
+        <p class="filter-status mono-label" id="filter-status" aria-live="polite">
+          Showing all 20 verified engineering projects.
+        </p>
+
+        <noscript>
+          <div class="noscript-banner">
+            <strong>JavaScript is disabled:</strong> All 20 project summaries and evidence links remain visible below. Enable JavaScript to open the interactive 14-point Engineering Dossier modal with architecture diagrams and keyboard navigation.
+          </div>
+        </noscript>
+
+        <!-- Project Cards Grid (Static HTML for core content + progressive enhancement hooks for modal) -->
+        <div class="projects-grid" id="projects-grid">
+
+          <!-- PROJECT 1: HR Knowledge Intelligence Platform -->
+          <article class="project-card card card-flagship" data-id="hr-knowledge-platform" data-categories="genai-rag security fullstack">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-01 // TCS INTERNSHIP DELIVERABLE</span>
+                <span class="tier-pill">FLAGSHIP</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-tested">Tested</span>
+                <span class="status-badge status-evaluated">Evaluated</span>
+              </div>
+              <h3 class="project-title">HR Knowledge Intelligence Platform</h3>
+              <p class="project-tagline">
+                Offline-first enterprise HR policy assistant combining Vector RAG, Neo4j Knowledge Graph retrieval, local Llama 3 inference, JWT/RBAC security, and prompt-injection safeguards.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">MEASURED RAGAS &amp; TEST EVIDENCE</span>
+              <p class="highlight-text">
+                Answer Relevancy <strong>0.939</strong> · Context Recall <strong>1.000</strong> · Context Precision <strong>0.750</strong> · Faithfulness <strong>0.688</strong> · Validated across <strong>14 manual test cases</strong> (unit, integration, security, performance).
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>Streamlit</li>
+              <li>LangChain</li>
+              <li>ChromaDB / FAISS</li>
+              <li>Neo4j</li>
+              <li>Ollama (Llama 3)</li>
+              <li>PostgreSQL</li>
+              <li>JWT &amp; bcrypt</li>
+              <li>RAGAS</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <span class="evidence-pill pill-muted" title="Built during TCS Internship; repository not public">Repo: TCS Deliverable (Private)</span>
+                <a href="#internship" class="evidence-pill pill-link">TCS Certificate Evidence</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="hr-knowledge-platform" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Lenovo Intelligent Customer Troubleshooting Agent -->
+          <article class="project-card card card-flagship" data-id="lenovo-troubleshooting-agent" data-categories="genai-rag fullstack">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-02 // HYBRID GRAPH RAG EXTENSION</span>
+                <span class="tier-pill">FLAGSHIP</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-progress">In Progress</span>
+                <span class="status-badge status-evaluated">Evaluated</span>
+                <span class="status-badge status-planned">Planned (MCP &amp; Ticketing)</span>
+              </div>
+              <h3 class="project-title">Lenovo Intelligent Customer Troubleshooting Agent</h3>
+              <p class="project-tagline">
+                First-level hardware support agent combining vector search, two-pass Neo4j diagnostic graph traversal (Product → Symptom → Step → Solution), and metadata filtering.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">COMBINED 8-QUERY RAGAS EVALUATION</span>
+              <p class="highlight-text">
+                Faithfulness improved to <strong>0.715</strong> · Answer Relevancy <strong>0.897</strong> · Context Precision <strong>0.792</strong> · Context Recall <strong>0.958</strong> after two-pass Neo4j relationship extraction fix (<code>HAS_STEP</code> / <code>LEADS_TO</code>).
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>Streamlit</li>
+              <li>LangChain</li>
+              <li>LangGraph (In Progress)</li>
+              <li>ChromaDB</li>
+              <li>Neo4j</li>
+              <li>Ollama (Llama 3)</li>
+              <li>PostgreSQL</li>
+              <li>RAGAS</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <span class="evidence-pill pill-amber">Local Dev — Repo Not Published Yet</span>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="lenovo-troubleshooting-agent" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: FHIR Patient Insights Platform -->
+          <article class="project-card card card-flagship" data-id="fhir-patient-insights" data-categories="fullstack security genai-rag">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-03 // HEALTHCARE INTEROPERABILITY</span>
+                <span class="tier-pill">FLAGSHIP</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-tested">Tested</span>
+              </div>
+              <h3 class="project-title">FHIR Patient Insights &amp; Interoperability Hub</h3>
+              <p class="project-tagline">
+                Full-stack healthcare prototype synchronizing FHIR R4 clinical records (via Mock &amp; mocked ModMed adapters) with bounded local Ollama AI summaries and anti-IDOR RBAC security.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">VERIFIED REPOSITORY &amp; TEST SUITE</span>
+              <p class="highlight-text">
+                <strong>33 backend tests</strong> (Testcontainers PostgreSQL + JaCoCo) + <strong>6 frontend tests</strong> in GitHub Actions CI · Bounded context fencing keeps raw PHI out of external APIs &amp; audit logs · <em>ModMed adapter is mocked</em>.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Java 21</li>
+              <li>Spring Boot 3</li>
+              <li>HAPI FHIR R4</li>
+              <li>PostgreSQL &amp; Flyway</li>
+              <li>React 18 &amp; TypeScript</li>
+              <li>Material UI</li>
+              <li>Ollama (Llama 3.1)</li>
+              <li>JWT &amp; RBAC</li>
+              <li>Testcontainers</li>
+              <li>Docker &amp; Nginx</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/FHIR" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+                <a href="https://github.com/huzaifaa69/FHIR/tree/main/docs" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">Architecture &amp; Security Docs</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="fhir-patient-insights" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: AI Life Manager -->
+          <article class="project-card card card-flagship" data-id="ai-life-manager" data-categories="ai-ml genai-rag">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-04 // META × PYTORCH OPENENV HACKATHON</span>
+                <span class="tier-pill">FLAGSHIP</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-evaluated">Evaluated</span>
+                <span class="status-badge status-deployed">Deployed</span>
+              </div>
+              <h3 class="project-title">AI Life Manager — OpenEnv RL &amp; GRPO Environment</h3>
+              <p class="project-tagline">
+                Custom OpenEnv reinforcement learning environment training Qwen2.5-1.5B with 4 decomposed GRPO reward functions to resolve chaotic inbox and calendar conflicts.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">4-WAY AGENT BENCHMARK (SAME R1–R4 REWARD)</span>
+              <p class="highlight-text">
+                Random: <strong>5.0 pts</strong> → Tabular Q-Learning (200 eps): <strong>18.5 pts</strong> → Zero-shot Qwen2.5-0.5B: <strong>23.0 pts</strong> → GRPO Fine-Tuned Qwen2.5-1.5B (150 steps, Unsloth + TRL): <strong>40.0 pts</strong>.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>OpenEnv</li>
+              <li>PyTorch</li>
+              <li>Qwen2.5-1.5B-Instruct</li>
+              <li>GRPO (TRL + Unsloth)</li>
+              <li>LoRA</li>
+              <li>Tabular Q-Learning</li>
+              <li>Gradio</li>
+              <li>Hugging Face Spaces</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://huggingface.co/spaces/huzaifaa1/ai-life-manager" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">HF Space (Env)</a>
+                <a href="https://huggingface.co/spaces/huzaifaa1/lifemanagerlearningRL" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">HF Space (4-Agent GRPO)</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="ai-life-manager" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 5: Study Agent -->
+          <article class="project-card card card-flagship" data-id="study-agent" data-categories="genai-rag fullstack">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-05 // DEPLOYED RAG APPLICATION</span>
+                <span class="tier-pill">FLAGSHIP</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-deployed">Deployed</span>
+              </div>
+              <h3 class="project-title">Study Agent — RAG PDF Q&amp;A &amp; Exam Generator</h3>
+              <p class="project-tagline">
+                Document-grounded study assistant for multi-PDF Q&amp;A with source-chunk attribution, 5-question MCQ generation, structured 4-part topic summaries, and revision flashcards.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">SOURCE-AUDITED PIPELINE PARAMETERS</span>
+              <p class="highlight-text">
+                <code>RecursiveCharacterTextSplitter</code> (<strong>1000 chars</strong> / <strong>200-char overlap</strong>) · Local <code>all-MiniLM-L6-v2</code> L2-normalized embeddings · ChromaDB (<code>top-k = 4</code>) · Groq <code>llama-3.3-70b-versatile</code> (~2s observed test latency).
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>Streamlit</li>
+              <li>LangChain</li>
+              <li>Groq API (Llama 3.3 70B)</li>
+              <li>HuggingFace Embeddings</li>
+              <li>ChromaDB</li>
+              <li>PDFPlumber</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/study_Agent" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+                <a href="https://studyagent001.streamlit.app" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-live">Live Streamlit App</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="study-agent" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 6: Voice Biometrics & Anti-Spoofing -->
+          <article class="project-card card card-flagship" data-id="voice-biometrics" data-categories="security ai-ml">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-06 // VOICE BIOMETRICS &amp; LIVENESS</span>
+                <span class="tier-pill">FLAGSHIP</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-tested">Tested</span>
+              </div>
+              <h3 class="project-title">Voice Authentication &amp; Anti-Spoofing System</h3>
+              <p class="project-tagline">
+                Dual-gate biometric pipeline combining SpeechBrain ECAPA-TDNN speaker embeddings with a 6-feature acoustic anti-spoof heuristic and SNR/VAD audio quality checks.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">VERIFIED METHODOLOGY &amp; LOGGED TRIALS</span>
+              <p class="highlight-text">
+                Genuine same-speaker trials in <code>auth_log.json</code> recorded <strong>86.34%</strong> and <strong>87.63% cosine similarity</strong> (threshold ≥75%) with spoof scores of 16.88% and 11.80% (threshold &lt;35%). <em>Metric is pairwise cosine similarity, not dataset classification accuracy.</em>
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>PyTorch</li>
+              <li>SpeechBrain (ECAPA-TDNN)</li>
+              <li>Torchaudio</li>
+              <li>Librosa</li>
+              <li>SciPy &amp; NumPy</li>
+              <li>Matplotlib</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/Voice-Biometrics" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+                <a href="https://github.com/huzaifaa69/Voice-Biometrics/blob/main/Voice-Biometrics-Anti-Spoof-and-deepfake-resistance-main/auth_log.json" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">Auth Log JSON</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="voice-biometrics" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 7: SQL Fixer OpenEnv -->
+          <article class="project-card card" data-id="sql-fixer-env" data-categories="ai-ml genai-rag">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-07 // OPENENV RL ENVIRONMENT</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-evaluated">Evaluated</span>
+                <span class="status-badge status-deployed">Deployed</span>
+              </div>
+              <h3 class="project-title">SQL Fixer Environment (OpenEnv RL Benchmark)</h3>
+              <p class="project-tagline">
+                Containerized OpenEnv reinforcement learning environment where AI agents diagnose and repair broken SQL queries across 4 difficulty tiers against an in-memory SQLite database.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">DENSE 5-COMPONENT REWARD FUNCTION</span>
+              <p class="highlight-text">
+                Grades syntax executability (20%), SQL keyword recall (25%), table references (20%), JOIN key logic (15%), and result-set match (20%) across <code>easy</code>, <code>medium</code>, <code>hard</code>, and <code>expert</code> tasks.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>OpenEnv</li>
+              <li>SQLite3</li>
+              <li>Pydantic</li>
+              <li>Docker</li>
+              <li>Hugging Face Spaces</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/sql-fixer-env" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+                <a href="https://huggingface.co/spaces/huzaifaa1/sql-fixer-env" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">HF Docker Space</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="sql-fixer-env" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 8: AutoStream AI Agent -->
+          <article class="project-card card" data-id="autostream-agent" data-categories="genai-rag">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-08 // LANGGRAPH STATEFUL AGENT</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-tested">Tested</span>
+              </div>
+              <h3 class="project-title">AutoStream AI Agent — LangGraph Lead Workflow</h3>
+              <p class="project-tagline">
+                Deterministic 4-node LangGraph conversational agent performing intent classification, local JSON RAG Q&amp;A, progressive multi-turn lead extraction, and guarded tool execution.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">EXPLICIT STATE MACHINE &amp; GUARDED TOOLS</span>
+              <p class="highlight-text">
+                Nodes: <code>intent_classifier</code> → <code>responder</code> / <code>lead_collector</code> → <code>lead_executor</code> · Triggers <code>mock_lead_capture()</code> strictly after all 3 lead fields (name, email, platform) are verified.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python 3.11</li>
+              <li>LangGraph</li>
+              <li>LangChain Google GenAI</li>
+              <li>Gemini 1.5 Flash</li>
+              <li>TypedDict State Machine</li>
+              <li>JSON Knowledge Base</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/autostream-agent" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="autostream-agent" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 9: ArvyaX Emotional Guidance System -->
+          <article class="project-card card" data-id="arvyax-emotional-guidance" data-categories="ai-ml research">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-09 // MULTIMODAL TABULAR + TEXT ML</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-evaluated">Evaluated</span>
+              </div>
+              <h3 class="project-title">ArvyaX Emotional Guidance &amp; Uncertainty Engine</h3>
+              <p class="project-tagline">
+                End-to-end ML pipeline predicting 6-class emotional state and 1–5 ordinal intensity from reflective text and physiological metadata, paired with an uncertainty-aware decision engine.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">5-FOLD CV &amp; ABLATION STUDY</span>
+              <p class="highlight-text">
+                State Macro-F1: <strong>0.633 ± 0.018</strong> (vs 0.612 text-only, <strong>+0.021 ablation gain</strong> from engineered ratios like <code>sleep_stress_ratio</code>) · Flags 31.7% (38/120) low-confidence test cases for safe fallback.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>Scikit-Learn (GradientBoosting)</li>
+              <li>TF-IDF &amp; Custom Lexicons</li>
+              <li>Pandas &amp; NumPy</li>
+              <li>Flask API</li>
+              <li>Ablation &amp; Error Analysis</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/Arvyax-Intern" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+                <a href="https://github.com/huzaifaa69/Arvyax-Intern/blob/main/ERROR_ANALYSIS.md" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">Error Analysis</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="arvyax-emotional-guidance" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 10: PrimeTrade Trader Behavior & Sentiment Analysis -->
+          <article class="project-card card" data-id="primetrade-sentiment-analysis" data-categories="research ai-ml">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-10 // QUANTITATIVE MARKET REGIME RESEARCH</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-evaluated">Evaluated</span>
+              </div>
+              <h3 class="project-title">PrimeTrade — Trader Behavior &amp; Sentiment Regime Analysis</h3>
+              <p class="project-tagline">
+                Empirical study of 211,224 Hyperliquid crypto trades (104,402 closed PnL events across 32 traders, May 2023–May 2025) merged with the Bitcoin Fear &amp; Greed Index.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">EMPIRICAL REGIME FINDINGS</span>
+              <p class="highlight-text">
+                Identified contrarian sizing during Fear regimes ($8,041 avg trade size, 87.3% win rate, $113 mean PnL) and dynamic 30-day rolling correlation flips ($r = -0.098, p = 0.0442$) across $10.3M cumulative PnL.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>Pandas &amp; NumPy</li>
+              <li>SciPy (Hypothesis Testing)</li>
+              <li>Matplotlib &amp; Seaborn</li>
+              <li>Regime &amp; Rolling Correlation</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/primetrade-trader-analysis" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+                <a href="https://github.com/huzaifaa69/primetrade-trader-analysis/blob/main/insights_report.md" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">Insights Report</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="primetrade-sentiment-analysis" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 11: Hybrid GARCH-HMM Financial Market Analysis -->
+          <article class="project-card card" data-id="garch-hmm-market-analysis" data-categories="research ai-ml">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-11 // VOLATILITY &amp; REGIME MODELING</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-evaluated">Evaluated</span>
+              </div>
+              <h3 class="project-title">Hybrid GARCH-HMM Financial Market Analysis</h3>
+              <p class="project-tagline">
+                Quantitative time-series framework combining GARCH conditional volatility estimation with Hidden Markov Model (HMM) latent regime detection and sentiment signals.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">ARCHITECTURAL SCOPE &amp; VERIFICATION NOTE</span>
+              <p class="highlight-text">
+                Couples log-return GARCH conditional variance with Viterbi-decoded HMM volatility states. <em>Developed as a local research pipeline; standalone repository not published yet (see SYS-10 for published empirical sentiment-regime repo).</em>
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>NumPy &amp; Pandas</li>
+              <li>GARCH Volatility Modeling</li>
+              <li>Hidden Markov Models (HMM)</li>
+              <li>Sentiment Integration</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <span class="evidence-pill pill-amber">Local Research — Repo Not Published Yet</span>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="garch-hmm-market-analysis" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 12: VisionVoice / Multimodal Image Captioning -->
+          <article class="project-card card" data-id="visionvoice-captioning" data-categories="ai-ml fullstack">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-12 // VISION-LANGUAGE INFERENCE</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-deployed">Deployed</span>
+              </div>
+              <h3 class="project-title">VisionVoice — Multimodal Image Captioning</h3>
+              <p class="project-tagline">
+                Vision-language web application generating descriptive natural-language captions from uploaded images using Salesforce BLIP-Large with beam-search decoding constraints.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">SOURCE-VERIFIED MODEL &amp; DECODING</span>
+              <p class="highlight-text">
+                Uses <code>Salesforce/blip-image-captioning-large</code> in PyTorch with <code>num_beams=5</code>, <code>min_length=30</code>, <code>max_length=70</code>, <code>repetition_penalty=1.5</code>, and <code>no_repeat_ngram_size=2</code> · Includes Streamlit UI, FastAPI backend, and Dockerfile.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>PyTorch</li>
+              <li>HuggingFace Transformers (BLIP-Large)</li>
+              <li>Pillow</li>
+              <li>Streamlit</li>
+              <li>FastAPI</li>
+              <li>Docker</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/Image-Caption-Generator" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+                <a href="https://imgaes-caption-generator.streamlit.app/" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">Streamlit App Link</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="visionvoice-captioning" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 13: LLM Access Hub -->
+          <article class="project-card card" data-id="llm-access-hub" data-categories="fullstack genai-rag">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-13 // SERVERLESS FULL-STACK AI CHAT</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-deployed">Deployed</span>
+              </div>
+              <h3 class="project-title">LLM Access Hub — Full-Stack AI Chat Platform</h3>
+              <p class="project-tagline">
+                Reactive TypeScript web platform for multi-conversation LLM interaction backed by Convex serverless functions, real-time state sync, and authentication.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">FULL-STACK REACTIVE ARCHITECTURE</span>
+              <p class="highlight-text">
+                Built with React 19, TypeScript, Tailwind CSS, shadcn/ui, and a Convex backend (<code>conversations.ts</code>, <code>llm.ts</code>, <code>models.ts</code>, <code>auth.ts</code>) integrating the OpenAI SDK.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>React 19</li>
+              <li>TypeScript</li>
+              <li>Convex Serverless</li>
+              <li>OpenAI SDK</li>
+              <li>Tailwind CSS &amp; shadcn/ui</li>
+              <li>Vite</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/LLM-Access-Hub" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+                <a href="https://tough-cobra-403.convex.app/" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">Convex Deployment</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="llm-access-hub" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 14: PKI Dashboard -->
+          <article class="project-card card" data-id="pki-dashboard" data-categories="security fullstack">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-14 // CERTIFICATE LIFECYCLE MANAGEMENT</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+              </div>
+              <h3 class="project-title">PKI Dashboard — Digital Certificate Lifecycle System</h3>
+              <p class="project-tagline">
+                Web-based Public Key Infrastructure dashboard for tracking certificate issuance, active/revoked states, role-gated administration, and SSL Labs domain expiry checks.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">SOURCE-AUDITED CAPABILITIES</span>
+              <p class="highlight-text">
+                React + Firebase Auth &amp; Firestore real-time listeners (<code>subscribeUserCerts</code>) · Admin role gating for issuance · Hex serial generation · Revocation/Renewal workflows · SSL Labs API domain analysis.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>React.js</li>
+              <li>Firebase Auth &amp; Firestore</li>
+              <li>Bootstrap 5</li>
+              <li>Axios</li>
+              <li>SSL Labs API Integration</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/pki-dashboard" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="pki-dashboard" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 15: Auto-Biz Agent -->
+          <article class="project-card card" data-id="auto-biz-agent" data-categories="genai-rag fullstack">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-15 // MULTI-AGENT BUSINESS ANALYSIS</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+              </div>
+              <h3 class="project-title">Auto-Biz Agent — 4-Agent Market Strategy Pipeline</h3>
+              <p class="project-tagline">
+                Full-stack multi-agent orchestrator chaining Research, Analysis, Strategy, and Report agents with automatic multi-LLM failover and React report viewer.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">RESILIENT MULTI-MODEL FAILOVER</span>
+              <p class="highlight-text">
+                <code>AutoBizOrchestrator</code> chains 4 specialized agents across OpenRouter models (<code>gemini-2.0-flash-exp</code> → <code>llama-3.1-8b</code> → <code>mistral-7b</code>) with deterministic simulation fallback on rate-limit exhaustion.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>OpenAI / OpenRouter SDK</li>
+              <li>React &amp; Vite</li>
+              <li>Multi-Agent Orchestration</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/Auto-Biz-agent" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="auto-biz-agent" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 16: Velocity-Mart -->
+          <article class="project-card card" data-id="velocity-mart" data-categories="ai-ml fullstack">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-16 // OPERATIONS RESEARCH &amp; ANALYTICS</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-deployed">Deployed</span>
+              </div>
+              <h3 class="project-title">Velocity-Mart — Warehouse Slotting Optimization</h3>
+              <p class="project-tagline">
+                4-view Streamlit operations analytics app auditing 800 SKUs, picker travel telemetry, and bin constraints to generate an ABC-optimized warehouse slotting map.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">DATA FORENSICS &amp; CONSTRAINT AUDIT</span>
+              <p class="highlight-text">
+                Performs Pareto ABC classification (80/15/5 pick volume) and detects bin temperature mismatches, weight-limit violations, and fragile-item high-shelf (levels E/F) risks with CSV export.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>Streamlit</li>
+              <li>Pandas &amp; NumPy</li>
+              <li>Plotly</li>
+              <li>ABC Slotting Optimization</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/Velocity-Mart" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+                <a href="https://velocitymartapp.streamlit.app/" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">Streamlit App Link</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="velocity-mart" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 17: IoT SCM Dashboard -->
+          <article class="project-card card" data-id="iot-scm-dashboard" data-categories="ai-ml fullstack">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-17 // TELEMETRY STREAMING &amp; ML</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+              </div>
+              <h3 class="project-title">IoT Supply Chain Telemetry &amp; Risk Dashboard</h3>
+              <p class="project-tagline">
+                Real-time supply chain condition monitoring prototype pairing a Python sensor simulator and FastAPI backend with RandomForest ETA, spoilage risk, and anomaly detection.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">END-TO-END SIMULATOR → API → DASHBOARD</span>
+              <p class="highlight-text">
+                Streams simulated temperature, humidity, and shock telemetry to FastAPI (<code>/api/push-data</code>) · Scores delivery ETA and 3-tier spoilage risk (<em>models trained on synthetic data for demo</em>).
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>FastAPI &amp; Uvicorn</li>
+              <li>Scikit-Learn (RandomForest)</li>
+              <li>HTML / CSS / Vanilla JS</li>
+              <li>Sensor Telemetry Simulator</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/IOT-SCM-Dashboard" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="iot-scm-dashboard" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 18: Handwritten OCR System -->
+          <article class="project-card card" data-id="handwritten-ocr-system" data-categories="ai-ml">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-18 // SEQUENCE-TO-SEQUENCE COMPUTER VISION</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+              </div>
+              <h3 class="project-title">Handwritten OCR System (CRNN: CNN + BiLSTM + CTC)</h3>
+              <p class="project-tagline">
+                PyTorch handwritten text recognition pipeline combining OpenCV document preprocessing, a 7-layer VGG-style CNN extractor, Bidirectional LSTM sequence modeling, and a Streamlit UI.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">SOURCE-AUDITED CRNN ARCHITECTURE</span>
+              <p class="highlight-text">
+                7-stage Conv2d/BatchNorm/MaxPool backbone compresses image height <code>H=32 → 1</code> (512 channels) → 256-unit BiLSTM → linear character projection with CER/WER evaluation utilities.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>PyTorch (CRNN + BiLSTM)</li>
+              <li>OpenCV Preprocessing</li>
+              <li>Streamlit</li>
+              <li>CER / WER Metrics</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/Handwritten-OCR-System" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="handwritten-ocr-system" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 19: Abstractive Text Summarizer App -->
+          <article class="project-card card" data-id="text-summarizer-app" data-categories="ai-ml">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-19 // NLP TRANSFORMER PROTOTYPE</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented</span>
+                <span class="status-badge status-deployed">Deployed</span>
+              </div>
+              <h3 class="project-title">Abstractive Text Summarizer App (T5-Small)</h3>
+              <p class="project-tagline">
+                Lightweight NLP web application and notebook workflow using Hugging Face's T5-Small transformer for abstractive summarization of long-form articles.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">SEQ2SEQ TRANSFORMER PIPELINE</span>
+              <p class="highlight-text">
+                Includes interactive Streamlit web application (<code>app.py</code>) and experimental Jupyter notebook (<code>Text_Summarization_Project.Huzaifaa.ipynb</code>) running on CPU/GPU.
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>HuggingFace Transformers (T5-Small)</li>
+              <li>PyTorch</li>
+              <li>Streamlit</li>
+              <li>Jupyter Notebook</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <a href="https://github.com/huzaifaa69/text-summarizer-app" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">GitHub Repo</a>
+                <a href="https://text-summarizer-app-ddu6pjgtpwque3rvt98fsi.streamlit.app" target="_blank" rel="noopener noreferrer" class="evidence-pill pill-link">Streamlit App Link</a>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="text-summarizer-app" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 20: AI Resume Analyzer -->
+          <article class="project-card card" data-id="ai-resume-analyzer" data-categories="genai-rag fullstack">
+            <div class="card-top">
+              <div class="project-meta-row">
+                <span class="project-code mono-label">SYS-20 // FASTAPI DOCUMENT SCORING PROTOTYPE</span>
+              </div>
+              <div class="status-group" aria-label="Project statuses">
+                <span class="status-badge status-implemented">Implemented (Local Prototype)</span>
+              </div>
+              <h3 class="project-title">AI Resume Analyzer &amp; ATS Scoring Service</h3>
+              <p class="project-tagline">
+                FastAPI backend prototype parsing candidate resumes against target job descriptions to evaluate skill alignment, keyword coverage, and structured ATS compatibility.
+              </p>
+            </div>
+
+            <div class="card-highlight">
+              <span class="highlight-label mono-label">VERIFICATION &amp; REPOSITORY STATUS</span>
+              <p class="highlight-text">
+                Built as a local FastAPI NLP/LLM utility. <em>Not currently published among the 17 public repositories on <code>github.com/huzaifaa69</code> — repository link placeholder maintained until public push.</em>
+              </p>
+            </div>
+
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>PDF Resume Parsing</li>
+              <li>ATS Keyword &amp; Semantic Scoring</li>
+            </ul>
+
+            <div class="card-footer">
+              <div class="evidence-pills">
+                <span class="evidence-pill pill-amber">Local Build — Repo Link To Be Added</span>
+              </div>
+              <button type="button" class="btn btn-dossier" data-open-project="ai-resume-analyzer" aria-haspopup="dialog">
+                <span>Open Engineering Dossier</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. INTERNSHIP — TATA CONSULTANCY SERVICES (FEATURED) ================= -->
+    <section class="section section-internship" id="internship" aria-labelledby="internship-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow mono-label">03 // FEATURED INDUSTRY EXPERIENCE (VERIFIED BY OFFICIAL TCS CERTIFICATE)</p>
+          <h2 id="internship-title" class="section-title">Internship — Tata Consultancy Services (TCS)</h2>
+        </div>
+
+        <div class="internship-spotlight card">
+          <div class="internship-top-bar">
+            <div>
+              <div class="internship-badges">
+                <span class="status-badge status-implemented">Completed</span>
+                <span class="mono-badge">08 JUN 2026 – 09 OCT 2026 (~4 MONTHS)</span>
+                <span class="mono-badge">TCS ACADEMIC ALLIANCES GROUP</span>
+              </div>
+              <h3 class="internship-role">Gen AI Developer Intern</h3>
+              <p class="internship-org">
+                <strong>Tata Consultancy Services (TCS)</strong> · Mentor: <strong>Rekha Ram Burra</strong> · Signed by: <strong>Dr K M Suceendran</strong> (Head – Academic Alliances Group)
+              </p>
+              <p class="internship-meta mono-label">
+                CERTIFICATE RECORD: ISSUED TO "SHAIK HUZAIFAA" · B.TECH IN COMPUTER SCIENCE AND ENGINEERING (AI &amp; ML), WOXSEN UNIVERSITY
+              </p>
+            </div>
+
+            <div class="internship-actions">
+              <button type="button" class="btn btn-primary" data-open-project="hr-knowledge-platform" aria-haspopup="dialog">
+                <span>Inspect Main Deliverable (HR Platform)</span>
+                <span aria-hidden="true">→</span>
+              </button>
+              <button type="button" class="btn btn-secondary" data-open-project="lenovo-troubleshooting-agent" aria-haspopup="dialog">
+                <span>View Follow-On Lenovo Graph RAG Extension</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="internship-grid">
+            <div class="internship-col">
+              <h4 class="sub-heading mono-label">01 // WHAT THE INTERNSHIP INVOLVED &amp; DELIVERABLE</h4>
+              <p>
+                Over a four-month period from June to October 2026, I engineered an offline-first <strong>HR Knowledge Intelligence Platform</strong> designed to solve a common enterprise bottleneck: organizational HR policies and handbooks are scattered across dense PDFs that are slow to search manually and often carry role-level sensitivity.
+              </p>
+              <p>
+                The objective was to build a self-contained internal knowledge assistant that answers employee and administrator questions strictly from authorized documents, runs locally without sending organizational data to third-party cloud LLM APIs, and enforces role-based access control and anti-hallucination guardrails.
+              </p>
+
+              <h4 class="sub-heading mono-label">02 // WHAT I PERSONALLY BUILT</h4>
+              <ul class="check-list">
+                <li><strong>Document Ingestion &amp; Dual Indexing:</strong> Built PDF parsing, text chunking, local vector embedding pipelines (ChromaDB / FAISS), and Neo4j knowledge-graph entity/relationship integration for structured policy traversal.</li>
+                <li><strong>Local LLM RAG Pipeline:</strong> Integrated local <strong>Llama 3</strong> inference via <strong>Ollama</strong> with LangChain orchestration and strict system-prompt grounding so unsupported queries are refused rather than hallucinated.</li>
+                <li><strong>Security, Auth &amp; RBAC:</strong> Implemented <strong>Employee</strong> and <strong>Admin</strong> roles in FastAPI + PostgreSQL using <strong>JWT authentication</strong>, <strong>bcrypt</strong> password hashing, role-based document visibility filters, prompt-injection input sanitization, and structured audit logging.</li>
+                <li><strong>Admin Management &amp; Handover:</strong> Built a Streamlit interface for administrative document uploads, index management, and audit inspection, accompanied by technical handover and testing documentation.</li>
+              </ul>
+            </div>
+
+            <div class="internship-col">
+              <h4 class="sub-heading mono-label">03 // QUANTITATIVE EVALUATION &amp; TESTING</h4>
+              <p>
+                Rather than relying on subjective spot-checks, I evaluated the retrieval and generation pipeline using the <strong>RAGAS</strong> framework alongside a formal <strong>14-case manual software testing suite</strong> covering unit, integration, security (unauthorized role access, prompt injection attempts), and response-time performance:
+              </p>
+
+              <div class="metrics-grid" aria-label="RAGAS evaluation metrics recorded during internship">
+                <div class="metric-box">
+                  <span class="metric-val">0.939</span>
+                  <span class="metric-name mono-label">ANSWER RELEVANCY</span>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-val">1.000</span>
+                  <span class="metric-name mono-label">CONTEXT RECALL</span>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-val">0.750</span>
+                  <span class="metric-name mono-label">CONTEXT PRECISION</span>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-val">0.688</span>
+                  <span class="metric-name mono-label">FAITHFULNESS</span>
+                </div>
+              </div>
+
+              <p class="metric-context">
+                <em>Engineering Interpretation:</em> High context recall (<code>1.000</code>) and answer relevancy (<code>0.939</code>) confirmed that relevant policy passages were consistently retrieved and addressed, while the faithfulness score (<code>0.688</code>) highlighted where local 8B-class models occasionally paraphrased beyond strict token-level entailment—directly motivating my follow-on two-pass relationship extraction work in the <strong>Lenovo Hybrid Graph RAG Troubleshooting Agent</strong> (where faithfulness rose to <code>0.715</code> and context precision to <code>0.792</code>).
+              </p>
+
+              <!-- Evidence Placeholder Card -->
+              <div class="evidence-box">
+                <div class="evidence-box-header">
+                  <span class="mono-label">OFFICIAL CERTIFICATE EVIDENCE</span>
+                  <span class="status-badge status-implemented">Verified PDF</span>
+                </div>
+                <p class="evidence-box-desc">
+                  <strong>TCS Internship Certificate</strong> (08-Jun-2026 to 09-Oct-2026 · Mentor: Rekha Ram Burra · Project: Gen AI Developer).
+                </p>
+                <!-- REPLACE_CERT_TCS: To display an image of the certificate, place it in assets/tcs-certificate.jpg and replace this placeholder block -->
+                <div class="placeholder-slot">
+                  <span class="mono-label">[PLACEHOLDER: Certificate image to be added — verified against attached TCS PDF]</span>
+                </div>
+                <p class="confidentiality-note">
+                  No confidential TCS code, internal documents, or proprietary datasets are published on this site.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. COMPETITIONS & HACKATHONS ================= -->
+    <section class="section" id="competitions" aria-labelledby="competitions-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow mono-label">04 // COMPETITIVE ENGINEERING &amp; AGENT BENCHMARKS</p>
+          <h2 id="competitions-title" class="section-title">Competitions &amp; Hackathons</h2>
+        </div>
+
+        <div class="competitions-grid">
+          <!-- Cross-linked Card 1: Meta x PyTorch OpenEnv Hackathon -->
+          <article class="card competition-card">
+            <div class="card-meta-top">
+              <span class="mono-label">APRIL 2026 · NATIONAL AI HACKATHON</span>
+              <span class="status-badge status-evaluated">Finalist &amp; Round 1 Certified</span>
+            </div>
+            <h3 class="card-title">Meta × PyTorch OpenEnv Hackathon × Scaler School of Technology (2026)</h3>
+            <p class="card-text">
+              Competed solo and built <strong>AI Life Manager</strong> (an OpenEnv reinforcement learning environment training <code>Qwen2.5-1.5B</code> with 4 GRPO reward functions). Qualified Round 1 (verified certificate attached) and selected for the on-campus Grand Finale in Bangalore.
+            </p>
+            <div class="card-actions-inline">
+              <a href="#practical-learning" class="btn btn-secondary">Read Full Hackathon Story in Practical Learning ↓</a>
+              <button type="button" class="btn btn-dossier" data-open-project="ai-life-manager" aria-haspopup="dialog">
+                <span>Open AI Life Manager Dossier →</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Card 2: Orbit Wars (Kaggle) -->
+          <article class="card competition-card">
+            <div class="card-meta-top">
+              <span class="mono-label">2026 · KAGGLE SIMULATION COMPETITION</span>
+              <span class="status-badge status-progress">In Progress / Ongoing</span>
+            </div>
+            <h3 class="card-title">Orbit Wars — Multi-Agent Strategy &amp; RL Competition (Kaggle)</h3>
+            <p class="card-text">
+              Competing in a two-person team to design autonomous game-playing agents under strict execution-time and dependency constraints. Combining domain heuristics with reinforcement learning pipelines:
+            </p>
+            <ul class="compact-list">
+              <li><strong>Rule-Based &amp; Spatial Heuristics:</strong> Dynamic spatial influence maps, fleet trajectory interception, and real-time opponent profiling.</li>
+              <li><strong>RL-Hybrid Pipeline:</strong> Proximal Policy Optimization (PPO) training pipelines exported into pure-NumPy inference agents for deterministic, low-latency submission execution.</li>
+            </ul>
+            <!-- REPLACE_KAGGLE: Replace placeholder below with your verified Kaggle profile URL and final rank/score once available -->
+            <div class="placeholder-slot">
+              <span class="mono-label">[PLACEHOLDER: Kaggle profile URL &amp; verified leaderboard score/rank to be added]</span>
+            </div>
+          </article>
+
+          <!-- Card 3: Restrained Cybersecurity / CTF Note -->
+          <article class="card competition-card card-muted">
+            <div class="card-meta-top">
+              <span class="mono-label">SECURITY COMPETITIONS &amp; CTFs</span>
+              <span class="status-badge status-planned">Status Note</span>
+            </div>
+            <h3 class="card-title">Cybersecurity Competitions &amp; CTFs</h3>
+            <p class="card-text">
+              <strong>No verified cybersecurity competitions listed yet.</strong> Rather than fabricating CTF rankings or badges, my security work is currently demonstrated through applied defensive engineering inside my software projects—including patient-level IDOR prevention and JWT/RBAC in the <button type="button" class="inline-link-btn" data-open-project="fhir-patient-insights">FHIR Patient Insights Hub</button>, role-gated RAG and prompt-injection defenses in the <button type="button" class="inline-link-btn" data-open-project="hr-knowledge-platform">HR Knowledge Platform</button>, certificate lifecycle management in the <button type="button" class="inline-link-btn" data-open-project="pki-dashboard">PKI Dashboard</button>, and acoustic anti-spoofing in <button type="button" class="inline-link-btn" data-open-project="voice-biometrics">Voice Biometrics</button>.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. PRACTICAL LEARNING ================= -->
+    <section class="section" id="practical-learning" aria-labelledby="practical-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow mono-label">05 // HANDS-ON BUILDS, RL ENVIRONMENTS &amp; LAB PLATFORMS</p>
+          <h2 id="practical-title" class="section-title">Practical Learning</h2>
+        </div>
+
+        <!-- Lead Feature: Meta x PyTorch OpenEnv Hackathon Finalist -->
+        <div class="hackathon-feature card">
+          <div class="hackathon-header">
+            <div>
+              <div class="internship-badges">
+                <span class="status-badge status-evaluated">Hackathon Finalist (2026)</span>
+                <span class="status-badge status-implemented">Round 1 Certificate Verified</span>
+                <span class="mono-badge">APRIL 25–26, 2026 · BANGALORE</span>
+              </div>
+              <h3 class="hackathon-title">
+                Hackathon Finalist — Meta × PyTorch OpenEnv Hackathon × Scaler School of Technology (2026)
+              </h3>
+              <p class="hackathon-headline">
+                “Selected for the on-campus Grand Finale in Bangalore from 31,000+ participating teams and 52,000+ developers.”
+              </p>
+            </div>
+          </div>
+
+          <div class="hackathon-grid">
+            <div class="hackathon-col">
+              <h4 class="sub-heading mono-label">WHAT THE EVENT INVOLVED &amp; WHAT I BUILT (SOLO)</h4>
+              <p>
+                The Meta × PyTorch × Hugging Face OpenEnv Hackathon challenged builders to design novel reinforcement learning environments and train reasoning agents capable of solving multi-step decision problems without reward hacking.
+              </p>
+              <p>
+                Working solo, I built and deployed <strong>AI Life Manager</strong> (<a href="https://huggingface.co/spaces/huzaifaa1/ai-life-manager" target="_blank" rel="noopener noreferrer">huzaifaa1/ai-life-manager</a> and <a href="https://huggingface.co/spaces/huzaifaa1/lifemanagerlearningRL" target="_blank" rel="noopener noreferrer">huzaifaa1/lifemanagerlearningRL</a>)—an RL environment simulating chaotic daily executive triage across competing emails (critical boss deadlines, HR policies, client reschedule requests, low-priority newsletters) and overlapping calendar appointments. I also built a companion OpenEnv environment, <strong>SQL Fixer Environment</strong> (<a href="https://github.com/huzaifaa69/sql-fixer-env" target="_blank" rel="noopener noreferrer">huzaifaa69/sql-fixer-env</a>), for multi-step SQL repair.
+              </p>
+
+              <h4 class="sub-heading mono-label">KEY ENGINEERING TAKEAWAYS</h4>
+              <ul class="check-list">
+                <li><strong>Anti-Hacking Reward Decomposition:</strong> Designed 4 independent reward components (<code>R1 Priority</code> ±10, <code>R2 Tone</code> ±5, <code>R3 Conflict Resolution</code> ±5, <code>R4 JSON Structure</code> ±3) and verified that all four curves rose simultaneously during training rather than trading off against one another.</li>
+                <li><strong>4-Agent Comparative Progression:</strong> Benchmarked a Random Baseline (<strong>5.0 pts</strong>), a 200-episode Tabular Q-Learning agent (<strong>18.5 pts</strong>, +53% improvement early-to-late), zero-shot <code>Qwen2.5-0.5B-Instruct</code> inference (<strong>23.0 pts</strong>), and a <strong>GRPO fine-tuned <code>Qwen2.5-1.5B-Instruct</code></strong> model trained for 150 steps via Unsloth + Hugging Face TRL on a T4 GPU (<strong>40.0 pts</strong>; training step reward <code>2.525 → 2.694</code>).</li>
+                <li><strong>Shipping Under Time Pressure:</strong> Packaged interactive Gradio evaluation suites and diagnostic learning-curve visualizations directly on Hugging Face Spaces.</li>
+              </ul>
+
+              <div class="card-actions-inline">
+                <button type="button" class="btn btn-primary" data-open-project="ai-life-manager" aria-haspopup="dialog">
+                  <span>Open AI Life Manager Dossier →</span>
+                </button>
+                <button type="button" class="btn btn-secondary" data-open-project="sql-fixer-env" aria-haspopup="dialog">
+                  <span>Open SQL Fixer OpenEnv Dossier →</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="hackathon-col">
+              <div class="evidence-box">
+                <div class="evidence-box-header">
+                  <span class="mono-label">VERIFIED EVIDENCE &amp; TRANSPARENCY NOTE</span>
+                  <span class="status-badge status-implemented">Audited</span>
+                </div>
+                <ul class="evidence-detail-list">
+                  <li>
+                    <strong>Round 1 Qualification Certificate (Attached &amp; Verified):</strong> Official Certificate of Achievement issued to <em>Shaik Huzaifaa</em> for qualifying Round 1 of the <em>Meta PyTorch OpenEnv Hackathon x Scaler School of Technology</em>, dated <strong>April 25–26, 2026</strong>, signed by <strong>Anshuman Singh</strong> (Co-founder, Scaler).
+                  </li>
+                  <li>
+                    <strong>Live Hugging Face Spaces (Verified):</strong>
+                    <a href="https://huggingface.co/spaces/huzaifaa1/ai-life-manager" target="_blank" rel="noopener noreferrer">huzaifaa1/ai-life-manager</a> ·
+                    <a href="https://huggingface.co/spaces/huzaifaa1/lifemanagerlearningRL" target="_blank" rel="noopener noreferrer">huzaifaa1/lifemanagerlearningRL</a> ·
+                    <a href="https://huggingface.co/spaces/huzaifaa1/sql-fixer-env" target="_blank" rel="noopener noreferrer">huzaifaa1/sql-fixer-env</a>
+                  </li>
+                  <li>
+                    <strong>Evidence Scope Note:</strong> The attached certificate formally verifies Round 1 qualification; the Bangalore Grand Finale finalist selection and event participation figures (31,000+ teams / 52,000+ developers) are presented from author records pending finalist certificate/email attachment.
+                  </li>
+                </ul>
+                <!-- REPLACE_CERT_OPENENV: Add assets/meta-openenv-round1.jpg and finalist proof when ready -->
+                <div class="placeholder-slot">
+                  <span class="mono-label">[PLACEHOLDER: Round 1 certificate image &amp; Grand Finale selection proof to be added]</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hands-on Security & Engineering Labs (Separate from Certifications) -->
+        <div class="labs-subsection">
+          <div class="subsection-header">
+            <h3 class="subsection-title">Hands-On Security &amp; Systems Practice Platforms</h3>
+            <p class="subsection-desc">
+              Practical labs and self-paced environments are kept strictly separate from formal certifications. Cybersecurity is an ongoing engineering learning interest supporting my application security practices (RBAC, IDOR prevention, JWT hardening, and input validation).
+            </p>
+          </div>
+
+          <!-- REPLACE_LABS: Replace placeholders below only with verified profile URLs if you choose to share public profiles -->
+          <div class="labs-grid">
+            <div class="lab-card card">
+              <div class="lab-top">
+                <span class="mono-label">PLATFORM // DEFENSIVE &amp; WEB SECURITY</span>
+                <span class="status-badge status-planned">Profile Link Pending</span>
+              </div>
+              <h4 class="lab-name">TryHackMe</h4>
+              <p class="lab-text">Hands-on Linux, networking, and web application security fundamentals supporting secure backend development.</p>
+              <div class="placeholder-slot">
+                <span class="mono-label">[PLACEHOLDER: TryHackMe profile URL to be added]</span>
+              </div>
+            </div>
+
+            <div class="lab-card card">
+              <div class="lab-top">
+                <span class="mono-label">PLATFORM // APPLICATION SECURITY</span>
+                <span class="status-badge status-planned">Profile Link Pending</span>
+              </div>
+              <h4 class="lab-name">PortSwigger Web Security Academy</h4>
+              <p class="lab-text">Practical study of web vulnerabilities (access control / IDOR, JWT session handling, injection defenses) applied directly in FastAPI and Spring Boot projects.</p>
+              <div class="placeholder-slot">
+                <span class="mono-label">[PLACEHOLDER: PortSwigger practice summary / link to be added]</span>
+              </div>
+            </div>
+
+            <div class="lab-card card">
+              <div class="lab-top">
+                <span class="mono-label">PLATFORM // SYSTEMS &amp; LABS</span>
+                <span class="status-badge status-planned">Profile Link Pending</span>
+              </div>
+              <h4 class="lab-name">Hack The Box / OverTheWire</h4>
+              <p class="lab-text">Command-line, privilege boundary, and systems troubleshooting exercises.</p>
+              <div class="placeholder-slot">
+                <span class="mono-label">[PLACEHOLDER: HTB / OverTheWire profile link to be added if applicable]</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7. CERTIFICATIONS (SECONDARY, CLEAN) ================= -->
+    <section class="section" id="certifications" aria-labelledby="certifications-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow mono-label">06 // VERIFIED COURSE CERTIFICATES &amp; VIRTUAL JOB SIMULATION</p>
+          <h2 id="certifications-title" class="section-title">Certifications &amp; Simulations</h2>
+          <p class="section-lead">
+            Foundational coursework verified via direct Coursera credential URLs, plus an industry job simulation completed via Forage.
+          </p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1 -->
+          <article class="cert-card card">
+            <div class="cert-meta">
+              <span class="mono-label">DEEPLEARNING.AI · COURSERA</span>
+              <time datetime="2024-04-19" class="cert-date mono-label">19 APR 2024</time>
+            </div>
+            <h3 class="cert-title">Probability &amp; Statistics for Machine Learning &amp; Data Science</h3>
+            <p class="cert-instructor">Instructor: Luis Serrano (Serrano Academy)</p>
+            <p class="cert-skills">
+              <strong>Key Skills:</strong> Probability distributions, Bayesian inference, Maximum Likelihood Estimation (MLE), confidence intervals, and statistical hypothesis testing for ML models.
+            </p>
+            <div class="cert-footer">
+              <a href="https://coursera.org/verify/2CKFZP5HZXF6" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <span>Verify on Coursera</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert 2 -->
+          <article class="cert-card card">
+            <div class="cert-meta">
+              <span class="mono-label">GOOGLE · COURSERA</span>
+              <time datetime="2023-11-30" class="cert-date mono-label">30 NOV 2023</time>
+            </div>
+            <h3 class="cert-title">Crash Course on Python</h3>
+            <p class="cert-instructor">Authorized by Google</p>
+            <p class="cert-skills">
+              <strong>Key Skills:</strong> Python programming fundamentals, core data structures, object-oriented patterns, and automation scripting.
+            </p>
+            <div class="cert-footer">
+              <a href="https://coursera.org/verify/5RZXYJLBRXRC" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <span>Verify on Coursera</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert 3 -->
+          <article class="cert-card card">
+            <div class="cert-meta">
+              <span class="mono-label">RICE UNIVERSITY · COURSERA</span>
+              <time datetime="2023-07-15" class="cert-date mono-label">15 JUL 2023</time>
+            </div>
+            <h3 class="cert-title">Python Programming Essentials</h3>
+            <p class="cert-instructor">Instructors: Prof. Scott Rixner &amp; Prof. Joe Warren</p>
+            <p class="cert-skills">
+              <strong>Key Skills:</strong> Modular Python program construction, functions, logic design, debugging workflows, and foundational data processing.
+            </p>
+            <div class="cert-footer">
+              <a href="https://coursera.org/verify/XHT3FP7KVN68" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <span>Verify on Coursera</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert 4: Deloitte Forage Job Simulation (explicitly labelled as Job Simulation, no verification codes shown) -->
+          <article class="cert-card card cert-card-simulation">
+            <div class="cert-meta">
+              <span class="mono-label">DELOITTE · FORAGE</span>
+              <time datetime="2026-04-13" class="cert-date mono-label">13 APR 2026</time>
+            </div>
+            <div class="simulation-tag-row">
+              <span class="status-badge status-evaluated">Job Simulation / Virtual Experience</span>
+            </div>
+            <h3 class="cert-title">Deloitte Data Analytics Job Simulation</h3>
+            <p class="cert-instructor">Signed by Tina McCreery (Chief Human Resources Officer, Deloitte) · Issued as "Shaik Huzaifaa"</p>
+            <p class="cert-skills">
+              <strong>Practical Tasks Completed:</strong> Data analysis &amp; Forensic technology. <em>(Classified accurately as a virtual job simulation rather than a professional certification.)</em>
+            </p>
+            <div class="cert-footer">
+              <span class="mono-label text-muted">[Certificate Image Placeholder — Verified via attached PDF]</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 8. ACHIEVEMENTS / REGISTERED DESIGN ================= -->
+    <section class="section" id="achievements" aria-labelledby="achievements-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow mono-label">07 // INTELLECTUAL PROPERTY REGISTRATION &amp; KEY MILESTONES</p>
+          <h2 id="achievements-title" class="section-title">Registered Design &amp; Achievements</h2>
+        </div>
+
+        <!-- Primary Registered Design Spotlight -->
+        <div class="design-reg-card card">
+          <div class="design-reg-header">
+            <div>
+              <div class="internship-badges">
+                <span class="status-badge status-implemented">Official Government of India Registration</span>
+                <span class="mono-badge">DESIGN NO. 454336-001</span>
+                <span class="mono-badge">CLASS 10-05</span>
+              </div>
+              <h3 class="design-reg-title">Registered Design — Autonomous Flood Monitoring System</h3>
+              <p class="design-reg-subtitle">
+                Certificate of Registration of Design · The Patent Office, Government of India (Issued under the Designs Act, 2000 and Designs Rules, 2001)
+              </p>
+            </div>
+          </div>
+
+          <div class="design-reg-grid">
+            <div class="design-reg-col">
+              <h4 class="sub-heading mono-label">OVERVIEW &amp; PROBLEM ADDRESSED</h4>
+              <p class="card-text">
+                Contributed to a collaborative <strong>Autonomous Flood Monitoring System</strong> design intended to support early flood-risk monitoring and warning in flood-prone regions. Manual flood monitoring can delay the detection and communication of rapidly changing water and environmental conditions, particularly in remote locations.
+              </p>
+
+              <h4 class="sub-heading mono-label">PROPOSED SYSTEM SPECIFICATION</h4>
+              <p class="card-text">
+                The system specification describes an autonomous monitoring concept incorporating:
+              </p>
+              <ul class="check-list">
+                <li><strong>Environmental &amp; Visual Sensing:</strong> Ultrasonic water-level sensors, rain gauges, temperature and humidity sensors, and high-resolution cameras.</li>
+                <li><strong>Autonomous Telemetry &amp; Power:</strong> Solar-powered operation with wireless connectivity for remote deployment.</li>
+                <li><strong>Cloud &amp; AI Analysis:</strong> Cloud-based monitoring paired with AI-assisted flood-risk analysis for continuous environmental tracking and timely warning communication.</li>
+              </ul>
+
+              <h4 class="sub-heading mono-label">DESIGN CONTRIBUTION, NOVELTY &amp; IMPACT</h4>
+              <p class="card-text">
+                The design was registered in India with eight named applicants. Its registered novelty resides in the <strong>shape and configuration of the monitoring system</strong>, illustrated through seven official views: <code>front</code>, <code>rear</code>, <code>top</code>, <code>bottom</code>, <code>left</code>, <code>right</code>, and <code>perspective</code>. The proposed system addresses the need for continuous environmental monitoring and timely flood-risk communication across flood-prone communities and disaster-management operations.
+              </p>
+            </div>
+
+            <div class="design-reg-col">
+              <h4 class="sub-heading mono-label">OFFICIAL REGISTRATION METADATA</h4>
+              <dl class="meta-table">
+                <div class="meta-row">
+                  <dt>Legal Classification</dt>
+                  <dd><strong>Registered Industrial Design</strong> (Designs Act, 2000 &amp; Designs Rules, 2001)</dd>
+                </div>
+                <div class="meta-row">
+                  <dt>Authority</dt>
+                  <dd>The Patent Office, Government of India</dd>
+                </div>
+                <div class="meta-row">
+                  <dt>Design Number</dt>
+                  <dd class="mono-val">454336-001</dd>
+                </div>
+                <div class="meta-row">
+                  <dt>Serial Number</dt>
+                  <dd class="mono-val">206164</dd>
+                </div>
+                <div class="meta-row">
+                  <dt>Classification</dt>
+                  <dd class="mono-val">Class 10-05</dd>
+                </div>
+                <div class="meta-row">
+                  <dt>Design Date</dt>
+                  <dd class="mono-val">04 April 2025 (04/04/2025)</dd>
+                </div>
+                <div class="meta-row">
+                  <dt>Issue Date</dt>
+                  <dd class="mono-val">05 August 2025 (05/08/2025)</dd>
+                </div>
+                <div class="meta-row">
+                  <dt>Registered Views</dt>
+                  <dd>7 views (Front, Rear, Top, Bottom, Left, Right, Perspective)</dd>
+                </div>
+              </dl>
+
+              <h4 class="sub-heading mono-label">GROUP REGISTRATION &amp; CO-REGISTRANTS (8 NAMED APPLICANTS)</h4>
+              <ol class="registrants-list">
+                <li>Roopa Vuppula</li>
+                <li>Dr. Kiran Siripuri</li>
+                <li>DSN Sathvik</li>
+                <li>Ani Reddy Manoj Kumar Reddy</li>
+                <li>Chinmay Sairam</li>
+                <li class="registrant-self"><strong>Huzaifaa Shaik</strong> <span>(Applicant #6)</span></li>
+                <li>Kalakuntla Akshay Rao</li>
+                <li>Jugal Kishore Nagulapalli</li>
+              </ol>
+
+              <p class="about-note">
+                <strong>Legal Scope Note:</strong> This is a registered industrial design (verified via Official Certificate of Registration of Design PDF). The registration protects the claimed shape and configuration of the monitoring system, not the underlying technical operating mechanism.
+              </p>
+
+              <!-- REPLACE_CERT_DESIGN: Place certificate image in assets/registered-design-454336-001.jpg when ready -->
+              <div class="placeholder-slot">
+                <span class="mono-label">[PLACEHOLDER: Official Certificate of Registration of Design image to be added]</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Secondary Summary of Key Verified Milestones -->
+        <div class="milestones-row">
+          <div class="milestone-card card">
+            <span class="mono-label">JUN–OCT 2026 · INDUSTRY INTERNSHIP</span>
+            <h4>Gen AI Developer Internship Completion — TCS</h4>
+            <p>Completed a 4-month Generative AI Developer internship under TCS Academic Alliances Group (Mentor: Rekha Ram Burra), delivering an offline Hybrid Graph RAG HR Knowledge Intelligence Platform.</p>
+            <a href="#internship" class="text-link">View TCS Internship Section ↑</a>
+          </div>
+
+          <div class="milestone-card card">
+            <span class="mono-label">APR 2026 · NATIONAL AI HACKATHON</span>
+            <h4>Grand Finale Finalist &amp; Round 1 Qualifier — Meta × PyTorch OpenEnv Hackathon × Scaler</h4>
+            <p>Qualified Round 1 (verified certificate) and selected for the Bangalore on-campus Grand Finale with the solo RL + GRPO project <em>AI Life Manager</em>.</p>
+            <a href="#practical-learning" class="text-link">View Hackathon Section ↑</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 9. CONTACT SECTION ================= -->
+    <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-card card">
+          <div class="contact-content">
+            <p class="section-eyebrow mono-label">08 // DIRECT CHANNELS</p>
+            <h2 id="contact-title" class="section-title">Connect &amp; Collaborate</h2>
+            <p class="contact-lead">
+              I am currently a final-year B.Tech CSE (AI &amp; ML) student at Woxsen University (graduating 2027) pursuing <strong>AI/ML Engineer</strong> and <strong>Generative AI Developer</strong> roles. If you are recruiting for full-time or internship positions, reviewing engineering architecture, or collaborating on RAG, agentic systems, or applied ML, feel free to reach out through any of the verified channels below.
+            </p>
+          </div>
+
+          <div class="contact-channels">
+            <a href="https://github.com/huzaifaa69" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <span class="channel-label mono-label">GITHUB // SOURCE CODE &amp; 17 REPOS</span>
+              <span class="channel-val">github.com/huzaifaa69 ↗</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/shaik-huzaifaa-/" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <span class="channel-label mono-label">LINKEDIN // PROFESSIONAL NETWORK</span>
+              <span class="channel-val">linkedin.com/in/shaik-huzaifaa-/ ↗</span>
+            </a>
+
+            <a href="https://huggingface.co/huzaifaa1" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <span class="channel-label mono-label">HUGGING FACE // RL &amp; OPENENV SPACES</span>
+              <span class="channel-val">huggingface.co/huzaifaa1 ↗</span>
+            </a>
+
+            <a href="mailto:huzifaashaik@gmail.com" class="contact-channel-card">
+              <span class="channel-label mono-label">EMAIL // DIRECT CONTACT</span>
+              <span class="channel-val">huzifaashaik@gmail.com ↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <span class="mono-label">HUZAIFAA SHAIK // AI/ML &amp; GENERATIVE AI PORTFOLIO</span>
+        <p class="footer-note">
+          Built with semantic HTML5, custom CSS, and vanilla JavaScript. Zero frameworks, zero external trackers, audited against primary source evidence.
+        </p>
+      </div>
+      <div class="footer-right">
+        <a href="#top" class="btn btn-secondary btn-sm" id="footer-top-link">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back-to-Top Control -->
+  <a href="#top" class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg class="icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+      <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+    </svg>
+  </a>
+
+  <!-- ================= ACCESSIBLE PROJECT DETAIL MODAL (14-POINT DOSSIER) ================= -->
+  <div
+    class="modal-backdrop"
+    id="project-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-title"
+    aria-describedby="modal-subtitle"
+    hidden
+  >
+    <div class="modal-container" role="document">
+      <header class="modal-header">
+        <div class="modal-header-meta">
+          <span class="mono-label" id="modal-code">SYS-00</span>
+          <div class="status-group" id="modal-statuses"></div>
+        </div>
+
+        <div class="modal-header-Controls">
+          <button type="button" class="btn-modal-nav" id="modal-prev-btn" aria-label="Previous project">
+            ← Prev
+          </button>
+          <button type="button" class="btn-modal-nav" id="modal-next-btn" aria-label="Next project">
+            Next →
+          </button>
+          <button type="button" class="btn-modal-close" id="modal-close-btn" aria-label="Close project details (Escape)">
+            <span aria-hidden="true">✕</span>
+            <span class="close-label mono-label">ESC</span>
+          </button>
+        </div>
+      </header>
+
+      <div class="modal-body" id="modal-body" tabindex="0">
+        <div class="modal-title-block">
+          <h2 id="modal-title" class="modal-title">Project Title</h2>
+          <p id="modal-subtitle" class="modal-subtitle">Project Subtitle</p>
+        </div>
+
+        <!-- Evidence Action Bar at Top of Modal -->
+        <div class="modal-evidence-bar" id="modal-evidence-bar" aria-label="Project evidence and repository links"></div>
+
+        <!-- 14-Section Structured Engineering Dossier -->
+        <div class="dossier-grid" id="modal-dossier-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
